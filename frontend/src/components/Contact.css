@@ -1,0 +1,73 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.contact > h1 {
+  font-size: 3rem;
+}
+.social {
+  color: white;
+  border: 2px solid white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  color: white;
+  border-radius: 30px;
+  border: solid white 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+  background-color: black;
+}
+.submit {
+  background-color: rgb(243, 74, 130);
+  border: 1px solid rgb(243, 74, 130);
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.social-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-links > button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Media Queries */
+@media (max-width: 580px) {
+  .form,
+  .social-links {
+    width: 75%;
+  }
+}
+@media (max-width: 400px) {
+  .form,
+  .social-links {
+    width: 90%;
+  }
+}

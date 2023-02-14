@@ -1,0 +1,7 @@
+.home {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,39 @@
+.projects {
+  width: 100%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px, 10px, 10px white;
+}
+.card > img,
+.card > p {
+  width: 60%;
+  padding: 2rem;
+}
+.title {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .card > img,
+  .card > p {
+    width: 80%;
+    padding: 2rem;
+  }
+}

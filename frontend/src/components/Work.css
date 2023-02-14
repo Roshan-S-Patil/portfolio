@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+.work {
+  width: 100%;
+  overflow-y: hidden;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: black;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.work-head {
+  font-size: 10rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0.3px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  z-index: 2 !important;
+  transition: -webkit-text-fill-color ease-in-out;
+  transition-duration: 200ms;
+  line-height: 1;
+  width: 100%;
+}
+.work-head:hover {
+  -webkit-text-fill-color: white;
+  cursor: default;
+}
+hr {
+  color: white;
+}
+.head-box {
+  width: fit-content;
+}
+.md {
+  -webkit-text-fill-color: white;
+  transition: ease-in-out 200ms;
+}
+.mm {
+  -webkit-text-fill-color: rgb(243, 74, 130);
+  -webkit-text-stroke-color: rgb(243, 74, 130);
+  /* text-shadow: 0 0 30px white; */
+  transition: ease-in-out 500ms;
+}
+
+@media (max-width: 630px) {
+  .work-head {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 630px) {
+  .work-head {
+    font-size: 8rem;
+  }
+  .work-head :hover {
+    -webkit-text-fill-color: white;
+  }
+}
+@media (min-width: 840px) {
+  .work-head {
+    font-size: 10rem;
+  }
+}
+@media (min-width: 1050px) {
+  .work-head {
+    font-size: 11rem;
+  }
+}

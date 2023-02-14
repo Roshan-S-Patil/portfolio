@@ -1,0 +1,35 @@
+.nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  z-index: 2;
+}
+.roshan {
+  margin-left: 2vw;
+}
+.logout {
+  margin-right: 2vw;
+  transition: all 200ms;
+}
+.logout:hover {
+  color: rgb(243, 74, 130);
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .roshan {
+    font-size: 1.5rem;
+  }
+  .logout {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 600px) {
+  .left > h1 {
+    font-size: 3rem;
+  }
+}
