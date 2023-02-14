@@ -10,9 +10,7 @@ const app = express();
 app.use(cors({ origin: true, credentials: true }));
 app.use(bodyParser.json());
 const port = process.env.PORT || 8000;
-app.get("/", (req, res) => {
-  res.json({ home: "home" });
-});
+
 app.use("/feedback", feedbackRoute);
 mongoose.set("strictQuery", true);
 mongoose
