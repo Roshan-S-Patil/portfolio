@@ -38,7 +38,7 @@ const Contact = () => {
     e.preventDefault();
     const { name, email, message } = feedback;
 
-    const data = await axios.post("http://localhost:8000/feedback/post", {
+    const data = await axios.post("/feedback/post", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

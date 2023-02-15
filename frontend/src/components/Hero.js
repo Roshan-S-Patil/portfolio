@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import dp from "./port-dp.png";
 import { HashLink as Link } from "react-router-hash-link";
 import { GrDocumentDownload } from "react-icons/gr";
-import resume from "./Roshan Patil Resume.docx";
+import resume from "./1.pdf";
 
 const Hero = () => {
   const variants = {

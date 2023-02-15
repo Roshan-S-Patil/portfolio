@@ -8,7 +8,7 @@ const Feedback = () => {
   const [feedbacks, setFeedbacks] = useState({});
   useEffect(() => {
     axios
-      .get("http://localhost:8000/feedback")
+      .get("/feedback")
       .then((resp) => {
         setFeedbacks(resp);
       })
