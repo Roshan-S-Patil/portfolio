@@ -37,7 +37,7 @@ const Login = () => {
   //   if (width < 600) {
   //     navigate("/intro");
   //   } else {
-  //     getResult();
+  getResult();
   //   }
   // }, []);
   return (
