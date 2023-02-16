@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.faf363bb.css",
+    "main.js": "/static/js/main.230f3aa6.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/1.pdf": "/static/media/1.467b611a9694d47ce6b4.pdf",
+    "static/media/port-dp.png": "/static/media/port-dp.bc0551c306b725c4736d.png",
+    "static/media/spotify.png": "/static/media/spotify.62e3c879dd0819883c12.png",
+    "static/media/todo.jpg": "/static/media/todo.1d43fb1ffc9e7e9be563.jpg",
+    "static/media/shinchan.gif": "/static/media/shinchan.9271d3829e65ed8449b4.gif",
+    "static/media/REACT.png": "/static/media/REACT.eebff0f3c5342197e432.png",
+    "static/media/tea.jpg": "/static/media/tea.73bbe571bc6db3f149da.jpg",
+    "static/media/js.png": "/static/media/js.e01a8876872927ed3e6a.png",
+    "static/media/HTML.png": "/static/media/HTML.457a2682a937e6996592.png",
+    "static/media/CSS.png": "/static/media/CSS.e3194bb920ec5480b84c.png",
+    "static/media/portfolio-website.png": "/static/media/portfolio-website.df3e3ec658a5d8769085.png",
+    "static/media/FM.png": "/static/media/FM.2161782894403b26cd01.png",
+    "index.html": "/index.html",
+    "main.faf363bb.css.map": "/static/css/main.faf363bb.css.map",
+    "main.230f3aa6.js.map": "/static/js/main.230f3aa6.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faf363bb.css",
+    "static/js/main.230f3aa6.js"
+  ]
+}
