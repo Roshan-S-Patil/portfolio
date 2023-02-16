@@ -6,8 +6,7 @@
   font-family: "Major Mono Display", monospace;
   overflow: hidden;
 }
-p {
+.about > p {
+  margin-bottom: 30vh;
   line-height: 2rem;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
 }
