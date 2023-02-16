@@ -32,14 +32,14 @@ const Login = () => {
       console.log(error);
     }
   };
-  // useEffect(() => {
-  //   const width = window.innerWidth;
-  //   if (width < 600) {
-  //     navigate("/intro");
-  //   } else {
-  getResult();
-  //   }
-  // }, []);
+  useEffect(() => {
+    // const width = window.innerWidth;
+    // if (width < 600) {
+    //   navigate("/intro");
+    // } else {
+    getResult();
+    // }
+  }, []);
   return (
     <div className="login">
       <button className="lgn-btn" onTouchEnd={login} onClick={login}>
