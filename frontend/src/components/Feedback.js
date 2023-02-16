@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Feedback.css";
-import { motion } from "framer-motion";
 import axios from "axios";
 import { useDataLayerValue } from "../datalayer/DataLayer";
 
@@ -8,7 +7,7 @@ const Feedback = () => {
   const [feedbacks, setFeedbacks] = useState({});
   useEffect(() => {
     axios
-      .get("/feedback")
+      .get("https://calm-erin-wasp-cape.cyclic.app/feedback")
       .then((resp) => {
         setFeedbacks(resp);
       })

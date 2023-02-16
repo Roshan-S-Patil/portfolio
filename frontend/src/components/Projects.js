@@ -29,7 +29,7 @@ const Projects = () => {
       title: "TODO LIST",
       image: todo,
       description:
-        "If you are a frontend developer it's mandatory to have TODO LIST in your TODOLIST.So did I.it gave me good Knowledge of states and props",
+        "If you are a frontend developer it's mandatory to have TODO LIST in your TODO LIST. It gave me good Knowledge of states and props and Confidence to make React App",
     },
     {
       id: 2,
@@ -43,14 +43,14 @@ const Projects = () => {
       title: "CHIAMANTRA",
       image: tea,
       description:
-        "This project increased my knowledgr about usein externakl APIs loke Google Aquthentication,REST APIs, mongoDB ,nodejs etc",
+        "This project increased my knowledge about using external APIs like Google Authentication,REST APIs, mongoDB ,nodejs etc",
     },
     {
       id: 4,
       title: "PORTFOLIO",
       image: portfolio,
       description:
-        "My First Deployed Website.I used Google Authentication to give personal greetings to viewer,context API,reducer and also incluses Framer Motion for Animations and Transitions",
+        "My First Deployed Website.I used Google Authentication to give personal greetings to viewer,context API,reducer and also includes Framer Motion for Animations and Transitions",
     },
   ];
   const [{ clicked }, dispatch] = useDataLayerValue();

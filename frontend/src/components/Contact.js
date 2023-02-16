@@ -38,16 +38,19 @@ const Contact = () => {
     e.preventDefault();
     const { name, email, message } = feedback;
 
-    const data = await axios.post("/feedback/post", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+    const data = await axios.post(
+      "https://calm-erin-wasp-cape.cyclic.app/feedback/post",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
 
-      name,
-      email,
-      message,
-    });
+        name,
+        email,
+        message,
+      }
+    );
     try {
       setFeedbackSent(true);
       resetForm();

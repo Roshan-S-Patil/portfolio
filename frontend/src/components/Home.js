@@ -10,12 +10,14 @@ import Work from "./Work";
 import Contact from "./Contact";
 import Nav from "./Nav";
 import Skills from "./Skills";
+import About from "./About";
 
 const Home = () => {
   return (
     <motion.div className="home">
       <Nav />
       <Hero />
+      <About />
       <Skills />
       <Projects />
       <Work />
