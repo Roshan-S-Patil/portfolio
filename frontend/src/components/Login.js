@@ -33,12 +33,7 @@ const Login = () => {
     }
   };
   useEffect(() => {
-    // const width = window.innerWidth;
-    // if (width < 600) {
-    //   navigate("/intro");
-    // } else {
     getResult();
-    // }
   }, []);
   return (
     <div className="login">
