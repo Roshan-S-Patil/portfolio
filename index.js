@@ -7,7 +7,7 @@ const feedbackRoute = require("./feedbackRoute");
 const path = require("path");
 dotenv.config();
 const app = express();
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors({ origin: '*', credentials: true }));
 app.use(bodyParser.json());
 const port = process.env.PORT || 8000;
 
